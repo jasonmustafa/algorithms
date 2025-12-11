@@ -1,1 +1,14 @@
-*input*
+*input*.txt
+*example*.txt
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
