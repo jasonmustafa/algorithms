@@ -5,6 +5,7 @@ input_file_name = "input.txt" if file_to_use == "input" else "example.txt"
 
 f = open(input_file_name, "r")
 rotations = f.read().splitlines()
+f.close()
 print(rotations)
 
 password = 0
